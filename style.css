@@ -20,6 +20,12 @@ h2 {
 p,ul,li,td {
  color: black;
  }
+
+ p {
+   margin: 25;
+   padding: 25 ;
+ }
+
 a:link {
  color: green;
  text-decoration: underline;
@@ -34,4 +40,11 @@ a:hover {
 a:active, a:focus {
  color: red;
 }
-img {center}
+em {
+  color: green;
+}
+/* appeller une classe mattre point (.+nomdelaclass)*/
+.rouge
+{
+  color:red;
+}
