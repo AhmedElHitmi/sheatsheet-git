@@ -18,17 +18,22 @@ h2 {
  padding-left: 15px;
  }
 p,ul,li,td {
+
  color: black;
+ margin: 25;
+ padding: 25 ;
  }
 
- p {
-   margin: 25;
-   padding: 25 ;
- }
-
+p {
+  text-align: justify;
+}
+.ctrcadre {
+  border: 1px solid black;
+}
 a:link {
  color: green;
  text-decoration: underline;
+
  }
 a:visited {
  color: gray;
@@ -44,7 +49,21 @@ em {
   color: green;
 }
 /* appeller une classe mattre point (.+nomdelaclass)*/
-.rouge
+.rg
 {
   color:red;
+}
+.ctrcadre
+{
+  text-align: center;
+}
+img {
+  display :block;
+  margin:0 auto;
+}
+td {
+  color:blue;
+}
+th {
+  color: red;
 }
