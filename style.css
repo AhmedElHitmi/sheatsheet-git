@@ -8,25 +8,13 @@ body {
  font-size: 100%;
  }
 h1 {
- font-size: 200%;
  color: navy;
  text-align: center;
  }
 h2 {
- font-size: 150%;
  color: red;
- padding-left: 15px;
- }
-p,ul,li,td {
-
- color: black;
- margin: 25;
- padding: 25 ;
  }
 
-p {
-  text-align: justify;
-}
 .ctrcadre {
   border: 1px solid black;
 }
